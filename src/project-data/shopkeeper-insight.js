@@ -1,0 +1,67 @@
+export const shopkeeperInsight = {
+  title: 'ShopKeeper Insight',
+  subtitle: 'Cloud-Based Retail Analytics & Inventory Management System',
+  duration: 'April 2024',
+  domain: 'Cloud Computing | Retail Analytics',
+  technologies: ['AWS', 'Python', 'Node.js', 'HTML/CSS'],
+  introduction: 'Small retail businesses often struggle with manual inventory tracking, inaccurate profit analysis, and operational inefficiencies. ShopKeeper Insight is a cloud-based analytics system designed to help shop owners track sales, manage inventory, and analyze profit & loss in real time.',
+  problemStatement: [
+    'Manual stock management errors',
+    'No real-time sales insights',
+    'Difficulty tracking profit and losses',
+    'Lack of data-driven decision making',
+  ],
+  objectives: [
+    'Automate sales tracking',
+    'Optimize inventory levels',
+    'Reduce operational errors',
+    'Provide real-time analytics',
+    'Enable cloud-based accessibility',
+  ],
+  systemOverview: 'The system collects sales and inventory data, processes it in the cloud, and displays analytics via a web dashboard accessible from anywhere.',
+  systemArchitecture: {
+    components: [
+      'Frontend Web Interface',
+      'Backend API Server',
+      'Cloud Database',
+      'Analytics Engine',
+      'AWS Cloud Infrastructure',
+    ],
+    workflow: [
+      'Sales data entered or uploaded',
+      'Backend processes transactions',
+      'Data stored in cloud database',
+      'Analytics engine calculates P&L',
+      'Dashboard displays insights',
+    ],
+  },
+  technologiesUsed: [
+    { name: 'AWS', purpose: 'Cloud hosting & scalability' },
+    { name: 'Python', purpose: 'Data processing & analytics' },
+    { name: 'Node.js', purpose: 'Backend API' },
+    { name: 'HTML/CSS', purpose: 'User interface' },
+  ],
+  functionalModules: [
+    { name: 'Sales Management Module', description: 'Tracks daily transactions and generates sales reports.' },
+    { name: 'Inventory Management Module', description: 'Monitors stock levels and sends low-stock alerts.' },
+    { name: 'Profit & Loss Analysis', description: 'Includes revenue calculation, expense tracking, and net profit computation.' },
+    { name: 'Cloud Integration Module', description: 'Ensures secure data storage and high availability.' },
+  ],
+  keyFeatures: [
+    'Real-time analytics',
+    'Cloud-based access',
+    'Business-friendly dashboard',
+    'Reduced human errors',
+  ],
+  limitations: [
+    'Internet dependency',
+    'Requires basic technical understanding',
+  ],
+  futureEnhancements: [
+    'AI-based sales prediction',
+    'Mobile application',
+    'GST & tax automation',
+    'Multi-store support',
+  ],
+  conclusion: 'ShopKeeper Insight empowers small businesses with enterprise-level analytics, helping them make informed decisions, reduce losses, and scale operations efficiently.',
+};
